@@ -1,12 +1,17 @@
-* {
+* 
+{   
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
+    
+    
 }
 
 body {
     background-color: #d9dcd6;
 }
+
 
 .header {
     padding: 20px;
@@ -18,13 +23,16 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    
 }
-
+/* removed because .header already has CSS styling for header */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*changed element class to nav*/
 .header div {
+
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,10 +40,12 @@ body {
     font-size: 20px;
 }
 
+/*changed element class to "nav ul*/
 .header div ul {
     list-style-type: none;
 }
 
+/*changed element class to "nav ul li"*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
@@ -49,7 +59,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* changed class */
 .hero {
     height: 800px;
     width: 100%;
